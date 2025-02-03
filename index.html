@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<div class='wrapper'>
+		<div class='scoreboard'>
+				<h2 class='score'>0</h2>
+		</div>
+		<div class='line'></div>
+		<div class='buttons'>
+			<div class='row-1 row'>
+				<button id='reset' class='btn gray func'>ac</button>
+				<button id='delete' class='btn gray func'><i class="fa-solid fa-arrow-left"></i></button>
+				<button id='percentage' class='btn gray once'>%</button>
+				<button id='dividing' class='btn yellow once'>/</button>
+		</div>
+		<div class='row-2 row'>
+				<button id='seven' class='btn gray'>7</button>
+				<button id='eight' class='btn gray'>8</button>
+				<button id='nine' class='btn gray'>9</button>
+				<button id='multiplying' class='btn yellow once'>*</button>
+		</div>
+		<div class='row-3 row'>
+				<button id='four' class='btn gray'>4</button>
+				<button id='five' class='btn gray'>5</button>
+				<button id='six' class='btn gray'>6</button>
+				<button id='subtracting' class='btn yellow once'>-</button>
+		</div>
+		<div class='row-4 row'>
+				<button id='one' class='btn gray'>1</button>
+				<button id='two' class='btn gray'>2</button>
+				<button id='three' class='btn gray'>3</button>
+				<button id='adding' class='btn yellow once'>+</button>
+		</div>
+		<div class='row-5 row'>
+				<button id='negative' class='btn gray func'>+/-</button>
+				<button id='zero' class='btn gray'>0</button>
+				<button id='decimal' class='btn gray once'>.</button>
+				<button id='equal' class='btn yellow func'>=</button>
+		</div>		
+	</div>
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>
