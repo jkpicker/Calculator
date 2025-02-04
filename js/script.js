@@ -36,7 +36,7 @@ buttons.forEach(button => {
 				if (button.id === 'equal') {
 					try {
 						scorestr = eval(scorestr)
-						scoreboard.innerText = scorestr.toFixed(3)
+						scoreboard.innerText = parseFloat(parseFloat(scorestr).toFixed(2)) 
 					} catch (e) {
 						scoreboard.innerText = 'Error'
 						scorestr = '0'
